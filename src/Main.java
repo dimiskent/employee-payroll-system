@@ -74,6 +74,7 @@ public class Main {
                     save(fileName, employees);
                     System.out.println("Reset successfully :)");
                 }
+                default -> System.out.println("Invalid option!");
             }
         } while (go);
         System.out.println("Goodbye!");
